@@ -1,0 +1,12 @@
+The Abaqus-Python program includes an operation file (Abaqus_Python_Auto_v2.py) and a function file (Abaqus_Python_Functions) that contains all necessary functions. 
+
+It is important to note that this program is only compatible with Abaqus versions higher than 2021 as it utilizes the matplotlib toolkit, 
+which is only supported in Abaqus from 2021 onwards. 
+If run in an earlier version of Abaqus, the Abaqus CAE program may crash or stop functioning.
+
+Before running the operation script, the function file must be placed in the Abaqus lib directory. 
+For example, in the author's case, the lib directory is located at D:\SIMULIA\EstProducts\2021\win_b64\tools\SMApy\python2.7\lib.
+
+To ensure that the matplotlib toolkit is working properly, a pre-run code should be tested in the Abaqus terminal. 
+If the code in Pre_run.py runs successfully in the Abaqus terminal, it indicates that the matplotlib toolkit is functioning well
+and the operation script can be executed.
