@@ -75,3 +75,5 @@ All the training options and informations for our study is mentioned below.
 The SSIM_calculation.py script evaluates the structural similarity (SSIM) index of test results using the OpenCV library.
 This script reads the actual and predicted images, compares them pixel by pixel, and calculates the SSIM score.
 The difference areas are highlighted by red rectangular boxes in the actual image and the outlines are highlighted in the predicted image."
+
+The folder also includes pre-processing scripts such as image cropping and merging, allowing for easy modification of the input images
