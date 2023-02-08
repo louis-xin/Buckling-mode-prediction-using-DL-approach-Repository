@@ -1,4 +1,10 @@
-GAN based deep learning model pix2pix was employed in this study.
+GAN based deep learning model pix2pix from junyanz was employed in this study.
+
+-----------------------------------------------------------------------------------------------
+Isola, P., Zhu, J. Y., Zhou, T., & Efros, A. A. (2017). 
+Image-to-image translation with conditional adversarial networks. 
+In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 1125-1134).
+-----------------------------------------------------------------------------------------------
 
 Related code and process is mentioned here.
 https://github.com/phillipi/pix2pix
@@ -65,3 +71,7 @@ All the training options and informations for our study is mentioned below.
                   verbose: False                         
        wandb_project_name: CycleGAN-and-pix2pix          
 ----------------- End -------------------
+
+The SSIM_calculation.py script evaluates the structural similarity (SSIM) index of test results using the OpenCV library.
+This script reads the actual and predicted images, compares them pixel by pixel, and calculates the SSIM score.
+The difference areas are highlighted by red rectangular boxes in the actual image and the outlines are highlighted in the predicted image."
