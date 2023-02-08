@@ -23,10 +23,9 @@ import connectorBehavior
 import odbAccess
 import matplotlib.pyplot as plt
 from matplotlib import cm
-import os
 
-attemps = 1
-set_size = 1
+attemps = 1 # Size of the data sets
+set_size = 1 # set size
 
 d = 0
 
@@ -151,7 +150,3 @@ for k in range(attemps/set_size):
     mdb.saveAs(pathName=r"{}\DataSet_{}\CAE_Set{}".format(path, i, i))
 
 np.save(r'{}\{}'.format(data_save_path, datano),data)
-# f = np.load(r'{}\Data_1.npy'.format(data_save_path))
-
-
-
